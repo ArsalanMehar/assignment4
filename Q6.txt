@@ -1,0 +1,14 @@
+void main() { 
+   Name c= new Name(); 
+   c.abc(); 
+}  
+class Name {  
+   // field 
+   String name = "Arsalan";  
+   
+   // function 
+   void abc() { 
+      print("my name is $name"); 
+   } 
+}  
+  
